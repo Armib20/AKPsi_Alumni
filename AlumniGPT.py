@@ -24,7 +24,6 @@ def query_database(question):
     st.write(payload['email'])
     st.write(f"Company: {payload['company']}")
     st.write(f"Similarity Score: {100 * round(score, 4)}%")
-    st.write("-"*100)
     st.divider()
 
 def main():
